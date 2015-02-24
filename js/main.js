@@ -15,6 +15,6 @@ $form.on('submit', function (e) {
     $list.append($li);
     $li.append($button);
     
-    $button.addClass('button');
+    $button.addClass('addbutton');
 });
 

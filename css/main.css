@@ -29,10 +29,14 @@ body {
     display: inline;
 }
 
-.button {
-    background-color: grey;
-    height: 100px;
+.addbutton {
+    background-color: #B6B6B9;
+    border: 2px solid #A8A8A9;
+    padding: .5em 1.5em .5em 1.5em;
     display: inline;
+    border-radius: 8px;
+    font-family: Georgia, serif;
+    font-size: 1em;  
 }
 
 .page-style {
@@ -51,5 +55,13 @@ h2 {
     font-family: Georgia, serif;
     display: block;
     text-align: center;
-    padding: .5em;
+    padding: .25em;
+}
+
+.grey {
+    background: #E1E1E1;
+}
+
+.white {
+    background-color: white;
 }
