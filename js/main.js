@@ -1,7 +1,11 @@
 var $add = $('.add');
 var $form = $('.form');
 var $list = $('.list');
+var $button = $('.addbutton')
 
+
+
+$button.addClass('addbutton');
 
 $form.on('submit', function (e) {
     e.preventDefault();
@@ -15,6 +19,19 @@ $form.on('submit', function (e) {
     $list.append($li);
     $li.append($button);
     
-    $button.addClass('addbutton');
-});
+    var $h2 = $('<h2>');
+    $h2.on('click', function () {
+    $h2.addClass('js-strike');
+})
+  
+  var $remove = $('.remove');  
 
+$remove.on('click', function () {
+    $li.remove();
+    
+});
+ 
+    
+$button.addClass('addbutton');
+})
+       

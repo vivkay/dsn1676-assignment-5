@@ -26,7 +26,6 @@ body {
 
 .list {
     list-style-type: none;
-    display: inline;
 }
 
 .addbutton {
@@ -39,6 +38,11 @@ body {
     font-size: 1em;  
 }
 
+.add {
+    height: 3.25em;
+    border: 2px solid #9B9B9B;
+}
+
 .page-style {
     border: 3px solid grey;
     border-radius: 15px;
@@ -48,6 +52,9 @@ body {
 
 h2 {
     display: inline-block;
+    font-family: Georgia, serif;
+    font-weight: lighter;
+    font-size: 1em;
 }
 
 .title { 
@@ -64,4 +71,9 @@ h2 {
 
 .white {
     background-color: white;
+}
+
+.js-strike {
+    color: #B6B6B9;
+    text-decoration: line-through;
 }
