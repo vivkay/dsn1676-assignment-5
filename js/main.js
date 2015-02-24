@@ -1,3 +1,35 @@
+
+var $add = $('#add');
+var $form = $('form');
+
+$form.on('submit', function (e) {
+    e.preventDefault();
+    var $div = $('<div>');
+    $div.addClass('item');
+    $('body').append($div);
+});
+
+
+
+
+
+
+
+
+$form.on('submit', function (e) {
+    //stop the form from doing what it normally does
+    e.preventDefault();
+    $circle.css('background-color', $theColor.val());
+});
+
+
+    $newSquare.on('click', function() {
+    var $div = $('<div>');
+    $div.addClass('square');
+    $('body').append($div);
+});
+
+
 // $('.circle').css('border', '3px solid black'); 
 
 var $circle = $('.circle');
