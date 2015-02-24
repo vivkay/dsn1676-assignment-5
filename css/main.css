@@ -67,6 +67,7 @@ h2 {
 
 .grey {
     background: #E1E1E1;
+    border-radius: 15px;
 }
 
 .white {
@@ -76,4 +77,8 @@ h2 {
 .js-strike {
     color: #B6B6B9;
     text-decoration: line-through;
+}
+
+.checkbutton {
+    color: red;
 }

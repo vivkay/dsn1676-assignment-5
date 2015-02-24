@@ -4,14 +4,15 @@ var $list = $('.list');
 var $button = $('.addbutton')
 
 
-
 $button.addClass('addbutton');
 
 $form.on('submit', function (e) {
     e.preventDefault();
     var $li = $('<li>');
     var $button = $('<button>');
-
+    $button.html('X');
+    $button.addClass ('checkbutton');
+    
     var addValue = $add.val();
     var $addH2 = $('<h2>').html($add.val());
 
@@ -29,9 +30,11 @@ $form.on('submit', function (e) {
 $remove.on('click', function () {
     $li.remove();
     
+    $button.addClass('addbutton');
+})
+       
+    
+    
 });
  
     
-$button.addClass('addbutton');
-})
-       
