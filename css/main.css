@@ -46,8 +46,7 @@ body {
 .page-style {
     border: 3px solid grey;
     border-radius: 15px;
-    padding: 1em;
-    margin: 5em;
+    margin: 3em;
 }
 
 h2 {
@@ -55,6 +54,7 @@ h2 {
     font-family: Georgia, serif;
     font-weight: lighter;
     font-size: 1em;
+    width: 100%;
 }
 
 .title { 
@@ -67,18 +67,26 @@ h2 {
 
 .grey {
     background: #E1E1E1;
-    border-radius: 15px;
+    border-radius: 15px 15px 0 0;
+    padding: 2em;
 }
 
 .white {
     background-color: white;
 }
 
-.js-strike {
-    color: #B6B6B9;
+.strike {
+    color: green;
     text-decoration: line-through;
 }
 
 .checkbutton {
-    color: red;
+    background-color: #F0F0F0;
+    border: 1px solid #C8C8C8;
+    border-radius: 5px;
+    height: 2.75em;
+    width: 2em;
+    position: relative;
+    float: right;
+    margin-right: 2em;
 }

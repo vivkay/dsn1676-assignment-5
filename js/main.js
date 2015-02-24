@@ -19,29 +19,13 @@ $form.on('submit', function (e) {
     var $addH2 =$('<h2>').html($add.val());
     $addH2.append($button);
     
-    $addh2.on('click', function () {
-    $h2.addClass('strike');
-    
-    var addValue = $add.val();
-    var $addH2 = $('<h2>').html($add.val());
-
+    $addH2.on('click', function () {
+    $addH2.addClass('strike')();
+    });
+        
     $li.append($addH2);
+    
     $list.append($li);
-    $li.append($button);
-    
-
-})
-  
-  var $remove = $('.remove');  
-
-$remove.on('click', function () {
-    $li.remove();
-    
-    $button.addClass('addbutton');
-})
-       
-    
-    
-});
  
+});
     
