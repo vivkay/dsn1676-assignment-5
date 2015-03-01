@@ -13,6 +13,10 @@ $form.on('submit', function (e) {
 
 });
   
+$list.on('click', 'li', function () {
+    console.log('clicked on the list')
+    
+});
 
    
 //var actionValue = $action.val(); 
