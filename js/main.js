@@ -2,12 +2,9 @@ var $form = $('.form');
 var $action = $('.action');
 var $list = $('.list');
 
-$form.on('submit', function () {
+$form.on('submit', function (e) {
     e.preventDefault();
-
-    var $actionH2 = $('<h2>').html($action.val())
-    console.log($actionValue);
-    
+    var $actionH2 = $('<h2>').html($action.val());
     $li.append($actionH2);
     $list.append($li);
 });
