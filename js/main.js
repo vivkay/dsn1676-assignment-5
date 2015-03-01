@@ -4,7 +4,9 @@ var $list = $('.list');
 
 $form.on('submit', function (e) {
     e.preventDefault();
+    var $li = $('<li>');
     var $actionH2 = $('<h2>').html($action.val());
+    
     $li.append($actionH2);
     $list.append($li);
 });
