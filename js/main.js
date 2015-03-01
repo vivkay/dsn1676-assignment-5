@@ -20,8 +20,8 @@ $list.on('click', 'li', function () {
     $(this).addClass('js-strike');
 });
 
-$list.on('click', '$checkbox', function () {
-         $(this).remove($li);
+$checkbox.on('click', 'div', function () {
+        $(this).remove($li);
         $(this).remove('checkbox');
 });
 

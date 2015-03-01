@@ -39,6 +39,11 @@ body {
     padding: 35px;
 }
 
+li {
+    list-style-type: none;
+    padding-left: 25px;
+}
+
 .addbutton {
     background-color: pink;
     border: white 2px solid;
