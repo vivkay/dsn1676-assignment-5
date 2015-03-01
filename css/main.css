@@ -24,10 +24,17 @@ body {
     margin: 0;
 }
 
+.paper {
+    background-color: teal;
+    margin: 5em auto;
+    width: 75%;
+    border-radius: 5px 5px 0 0;
+}
+
 .form {
     background-color: red;
     margin: 5em auto;
-    width: 75%;
+    width: 100%;
     border-radius: 5px 5px 0 0;
     padding: 35px;
 }
@@ -47,6 +54,7 @@ body {
     margin: 0 auto;
     text-align: center;
 }
+
 
 .action {
     background-color: grey;
