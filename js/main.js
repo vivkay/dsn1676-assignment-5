@@ -1,21 +1,30 @@
 var $form = $('.form');
 var $action = $('.action');
 var $list = $('.list');
+var $checkbox = $('.checkbox');
 
 $form.on('submit', function (e) {
     e.preventDefault();
     
     var $li = $('<li>');
     var $actionH2 = $('<h2>').html($action.val());
+    var $checkbox = $('<div>').addClass('checkbox');
     
     $li.append($actionH2);
     $list.append($li);
+    $list.append($checkbox);
 
 });
   
 $list.on('click', 'li', function () {
     $(this).addClass('js-strike');
 });
+
+$list.on('click', '$checkbox', function () {
+         $(this).remove($li);
+        $(this).remove('checkbox');
+});
+
 
    
 //var actionValue = $action.val(); 
