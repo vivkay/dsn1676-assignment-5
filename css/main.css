@@ -25,14 +25,14 @@ body {
 }
 
 .paper {
-    background-color: teal;
+    background-color: #fdf3ac;
     margin: 5em auto;
     width: 75%;
     border-radius: 5px 5px 0 0;
 }
 
 .form {
-    background-color: red;
+    background-image: url(../images/4.lined-paper-texture.jpg);
     margin: 5em auto;
     width: 100%;
     border-radius: 5px 5px 0 0;
@@ -42,14 +42,17 @@ body {
 li {
     list-style-type: none;
     padding-left: 25px;
+    border-bottom: grey 1px solid;
 }
 
 .addbutton {
-    background-color: pink;
+    background-color: #3D3526;
     border: white 2px solid;
     color: white;
     display: inline;
     float: right;
+    font-size: 1em;
+    padding: 10px;
 }
 
 .title {
@@ -62,7 +65,7 @@ li {
 
 
 .action {
-    background-color: grey;
+    background-color: #FAF7F2;
     border: 2px solid black;
     width: 75%;
     display: inline-block;
@@ -72,11 +75,11 @@ li {
 
 .js-strike {
     text-decoration: line-through;
-    color: red;
+    color: #8F7D5A;
 }
 
 .checkbox {
-    background-color: orange;
+    background-color: #F5F0E6;
     height: 50px;
     width: 50px;
     display: inline-block;

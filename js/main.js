@@ -22,7 +22,7 @@ $list.on('click', 'li', function () {
 
 $checkbox.on('click', 'div', function () {
         $(this).remove($li);
-        $(this).remove('checkbox');
+        $(this).remove($checkbox);
 });
 
 
