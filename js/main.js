@@ -14,8 +14,7 @@ $form.on('submit', function (e) {
 });
   
 $list.on('click', 'li', function () {
-    console.log('clicked on the list')
-    
+    $(this).addClass('js-strike');
 });
 
    

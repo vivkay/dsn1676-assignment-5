@@ -27,3 +27,7 @@ body {
 .form {
     background-color: red;
 }
+
+.js-strike {
+    border: 3px solid green;
+}
