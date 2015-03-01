@@ -26,6 +26,35 @@ body {
 
 .form {
     background-color: red;
+    margin: 5em auto;
+    width: 75%;
+    border-radius: 5px 5px 0 0;
+    padding: 35px;
+}
+
+.addbutton {
+    background-color: pink;
+    border: white 2px solid;
+    color: white;
+    display: inline;
+    float: right;
+}
+
+.title {
+    display: block;
+    font-size: 1.5rem;
+    font-family: 'Helvetica', sans-serif;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.action {
+    background-color: grey;
+    border: 2px solid black;
+    width: 75%;
+    display: inline-block;
+    height: 1.75rem;
+    margin-top: 25px;
 }
 
 .js-strike {
