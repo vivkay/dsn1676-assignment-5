@@ -8,7 +8,7 @@ $form.on('submit', function (e) {
     
     var $li = $('<li>');
     var $actionH2 = $('<h2>').html($action.val());
-    var $checkbox = $('<div>').addClass('checkbox');
+    var $checkbox = $('<button>').addClass('checkbox');
     
     $li.append($actionH2);
     $list.append($li);
@@ -20,7 +20,7 @@ $list.on('click', 'li', function () {
     $(this).addClass('js-strike');
 });
 
-$checkbox.on('click', 'div', function () {
+$checkbox.on('click', 'button', function () {
         $(this).remove($li);
         $(this).remove($checkbox);
 });
