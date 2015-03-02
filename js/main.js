@@ -11,8 +11,9 @@ $form.on('submit', function (e) {
     var $checkbox = $('<button>').addClass('checkbox');
     
     $li.append($actionH2);
+    $li.append($checkbox);
     $list.append($li);
-    $list.append($checkbox);
+    
 
 });
   
