@@ -43,6 +43,7 @@ li {
     list-style-type: none;
     padding-left: 25px;
     border-bottom: grey 1px solid;
+    position: relative;
 }
 
 .addbutton {
@@ -89,10 +90,12 @@ li {
     background-color: #F5F0E6;
     height: 50px;
     width: 50px;
-    display: inline-block;
-    float: right;
+    position: absolute;
     background-image: url(../images/pineappley.png);
+    right: 25px;
+    top: 0;
 }
 
 h2 {
+
 }
